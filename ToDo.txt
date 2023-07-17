@@ -1,0 +1,15 @@
+fix difficulty menu
+
+revamp card ui
+
+add vanishing effect on the card
+
+add scoring System
+
+add sound off/on , quit and soundfx off/on button
+
+add leaderboards
+
+Music System
+
+Font outlies

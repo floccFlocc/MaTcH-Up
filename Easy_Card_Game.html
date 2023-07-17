@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MaTcH-Up</title>
+  <link rel="stylesheet" href="Stylesheets/card_game.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <div class="timer" id="countdown">00:00</div>
+    </ul>
+  </nav>
+
+  <h1>MaTcH-Up</h1>
+  <div id="cards"></div>
+
+  <div id="popupContainer">
+    <div id="popupContent">
+      <!-- Your pop-up content goes here -->
+      <p id="tag"></p>
+      <div id="buttons">
+        <img id="button-Home" src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg width='12.964582mm' height='14.405118mm' viewBox='0 0 12.964582 14.405118' version='1.1' id='svg5' sodipodi:docname='ButtonHome.svg' inkscape:version='1.1.2 (b8e25be833, 2022-02-05)' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Csodipodi:namedview id='namedview7' pagecolor='%23505050' bordercolor='%23eeeeee' borderopacity='1' inkscape:pageshadow='0' inkscape:pageopacity='0' inkscape:pagecheckerboard='0' inkscape:document-units='mm' showgrid='true' inkscape:snap-bbox='true' inkscape:snap-bbox-edge-midpoints='true' inkscape:zoom='5.6568543' inkscape:cx='27.488776' inkscape:cy='18.384776' inkscape:window-width='1366' inkscape:window-height='705' inkscape:window-x='-8' inkscape:window-y='-8' inkscape:window-maximized='1' inkscape:current-layer='layer1' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0'%3E%3Cinkscape:grid type='xygrid' id='grid846' originx='-36.247914' originy='-44.979165' /%3E%3C/sodipodi:namedview%3E%3Cdefs id='defs2' /%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(-36.247916,-44.979164)'%3E%3Crect style='fill:%23b2d5d1;fill-opacity:1;stroke-width:3.7705' id='rect848' width='12.964578' height='14.405118' x='36.247921' y='44.979164' /%3E%3Crect style='fill:%238eaaa7;fill-opacity:1;stroke-width:3.44199' id='rect5420' width='1.440509' height='4.321538' x='42.009964' y='47.860184' /%3E%3Cpath style='fill:%238eaaa7;fill-opacity:1;stroke:none;stroke-width:1.44051px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' d='m 42.009955,49.300701 h -1.440513 v 1.440507 h -1.440507 v 1.440513 h 5.762034 1.440512 v -1.440513 h -1.440512 v -1.440507 h -2.881014' id='path5923' /%3E%3Crect style='fill:%238eaaa7;fill-opacity:1;stroke:none;stroke-width:1.98723' id='rect15020' width='4.321527' height='2.8810179' x='40.569454' y='53.622227' /%3E%3Cpath id='rect15146' style='fill:%23829c99;fill-opacity:1;stroke:none;stroke-width:1.40518' d='m 36.247916,44.979175 v 12.964581 1.440509 h 1.440509 11.524072 V 57.943756 H 37.688425 V 44.979175 Z' /%3E%3Cpath id='rect15252' style='fill:%23c6ede9;fill-opacity:1;stroke:none;stroke-width:1.98722' d='m 44.89097,44.979175 v 1.440509 h 1.440509 v 1.440509 h 1.440509 v 1.440509 h 1.440509 v -1.440509 -1.440509 h -1.440509 v -1.440509 z' /%3E%3C/g%3E%3C/svg%3E%0A" onclick="redirectImageClick('Home')">
+        <img id="button-Restart" src="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg width='13.229167mm' height='14.552078mm' viewBox='0 0 13.229167 14.552078' version='1.1' id='svg5' inkscape:version='1.1.2 (b8e25be833, 2022-02-05)' sodipodi:docname='ButtonRetry.svg' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Csodipodi:namedview id='namedview7' pagecolor='%23505050' bordercolor='%23eeeeee' borderopacity='1' inkscape:pageshadow='0' inkscape:pageopacity='0' inkscape:pagecheckerboard='0' inkscape:document-units='mm' showgrid='true' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0' inkscape:zoom='1.4142136' inkscape:cx='116.31907' inkscape:cy='-25.455844' inkscape:window-width='1366' inkscape:window-height='705' inkscape:window-x='-8' inkscape:window-y='-8' inkscape:window-maximized='1' inkscape:current-layer='layer1'%3E%3Cinkscape:grid type='xygrid' id='grid824' originx='-40.481252' originy='-89.164579' /%3E%3C/sodipodi:namedview%3E%3Cdefs id='defs2' /%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(-40.481249,-89.164581)'%3E%3Crect style='fill:%23b2d5d1;fill-opacity:1;stroke-width:7.81419' id='rect848' width='13.229157' height='14.552073' x='40.481258' y='89.164581' /%3E%3Cpath id='rect4295' style='fill:%23829c99;fill-opacity:1;stroke-width:2.01762' d='m 40.481249,89.164585 v 13.096875 1.4552 h 1.469909 11.759252 v -1.4552 H 41.951158 V 89.164585 Z' /%3E%3Cpath id='rect7352' style='fill:%238eaaa7;fill-opacity:1;stroke-width:1.66599' d='m 43.127083,91.810417 v 1.322916 5.291663 1.322916 h 1.322916 3.968747 v -1.322916 h -3.968747 v -5.291663 h 3.968747 v 1.322916 h 1.322916 v -2.645832 z' /%3E%3Cpath id='rect7649' style='fill:%238eaaa7;fill-opacity:1;stroke-width:1.825' d='m 45.772914,94.456249 v 1.322915 h 1.322916 v 1.322916 h 1.322916 v 1.322916 h 1.322916 V 97.10208 h 1.322915 v -1.322916 h 1.322916 v -1.322915 z' /%3E%3Cpath id='rect11557' style='fill:%23c6ede9;fill-opacity:1;stroke-width:1.825' d='m 49.741662,89.164586 v 1.322916 h 1.322915 v 1.322915 h 1.322916 v 1.322916 h 1.322916 v -2.645831 h -1.322916 v -1.322916 z' /%3E%3C/g%3E%3C/svg%3E%0A" onclick="redirectImageClick('Retry')"/>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+
+    const params = new URLSearchParams(window.location.search);
+    const difficulty = params.get('difficulty');
+
+    var symbols = ['+', '-', '*', '/']; // Mathematical symbols
+    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; // Numbers for the equations
+    var equations = []; // Array to store the equations
+
+    var timerInterval;
+    var remainingTime = 0;
+    var penaltySeconds = 60;
+
+    var timeoutId;
+
+    var timerElement = document.getElementById("countdown");
+    
+    // Show the pop-up when the button is clicked
+    function openBanner(tag){
+      const message = document.getElementById("tag");
+      console.log(tag);
+      message.textContent = tag;
+      popupContainer.style.display = 'flex';
+      popupContainer.style.alignItems = 'center';
+      popupContainer.style.justifyContent = 'center';
+    }
+
+    // Generate the equations
+    for (var i = 0; i < numbers.length; i++) {
+      for (var j = 0; j < symbols.length; j++) {
+        equations.push(numbers[i] + ' ' + symbols[j] + ' ' + numbers[i]);
+      }
+    }
+
+    // Shuffle the equations randomly
+    shuffleArray(equations);
+
+    //removal of elements in array
+    if (difficulty == "Easy"){
+      while (equations.length > 2){
+              equations.splice(0, 34);
+              timerElement.style.display = "none";
+      } 
+    }else if(difficulty == "Medium"){
+      while (equations.length > 20){
+              equations.splice(0, 16);
+              remainingTime = 900;
+              startTimer();
+      } 
+    }else{
+      remainingTime = 5;
+      startTimer();
+    }
+
+    // Duplicate the equations to have pairs
+    equations = equations.concat(equations);
+
+    shuffleArray(equations);
+
+    var cards = document.getElementById('cards');
+    var openedCards = [];
+    var matchedCards = [];
+
+    // Create the cards dynamically
+    for (var k = 0; k < equations.length; k++) {
+      var card = document.createElement('div');
+      card.classList.add('card');
+      card.dataset.equation = equations[k];
+      card.textContent = equations[k];
+      card.addEventListener('click', flipCard);
+      cards.appendChild(card);
+    }
+
+    function flipCard() {
+
+      if (openedCards.length < 2 && !this.classList.contains('matched') && !this.classList.contains('flipped')) {
+        this.classList.add('flipped');
+        openedCards.push(this);
+        this.classList.toggle("transformed");
+        if (openedCards.length === 2) {
+          checkMatch();
+        }
+      }
+    }
+
+    function checkMatch() {
+      var equation1 = openedCards[0].dataset.equation;
+      var equation2 = openedCards[1].dataset.equation;
+
+      if (equation1 === equation2) {
+        openedCards[0].classList.add('matched');
+        openedCards[1].classList.add('matched');
+        removeCard(openedCards[0], openedCards[1]);
+        matchedCards.push(openedCards[0]);
+        matchedCards.push(openedCards[1]);
+        openedCards = [];
+
+        if (matchedCards.length === equations.length) {
+          openBanner('Congratulations! You have matched all the cards!');
+        }
+      } else {
+        setTimeout(function() {
+          openedCards[0].classList.remove('transformed');
+          openedCards[1].classList.remove('transformed');
+          openedCards[0].classList.remove('flipped');
+          openedCards[1].classList.remove('flipped');
+          console.log(openedCards[0]);
+
+          openedCards = [];
+          applyPenalty();
+
+        }, 0);
+      }
+    }
+
+    function removeCard(firstCard, secondCard) {
+        firstCard.parentNode.removeChild(firstCard);
+        secondCard.parentNode.removeChild(secondCard);
+    }
+
+    // Shuffle an array using the Fisher-Yates algorithm
+    function shuffleArray(array) {
+      var currentIndex = array.length;
+      var temporaryValue, randomIndex;
+
+      while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+
+      return array;
+    }
+    
+    function startTimer() {
+      timerInterval = setInterval(updateTimer, 1000);
+    }
+
+    function updateTimer() {
+      var minutes = Math.floor(remainingTime / 60);
+      var seconds = remainingTime % 60;
+
+      timerElement.textContent = formatTime(minutes) + ":" + formatTime(seconds);
+
+      remainingTime--;
+
+      if (remainingTime < 0) {
+        stopTimer();
+        timerElement.textContent = "Time's up!";
+      }
+    }
+
+    function stopTimer() {
+      clearInterval(timerInterval);
+      openBanner("Game over!");
+    }
+
+    function applyPenalty() {
+      remainingTime -= penaltySeconds;
+
+      // Ensure the remaining time does not go below zero
+      remainingTime = Math.max(0, remainingTime);
+      runShakeForOneSecondOnly();
+    }
+
+    function formatTime(time) {
+      return time < 10 ? "0" + time : time;
+    }
+
+    function runShakeForOneSecond() {
+      timerElement.classList.add('shake');
+    }
+
+    function runShakeForOneSecondOnly() {
+      runShakeForOneSecond();
+      timeoutId = setTimeout(stopRunning, 1000); // Schedule stopRunning after 1 second
+    }
+
+    function stopRunning() {
+      clearTimeout(timeoutId);
+      // run shake effect for 1 second
+      timerElement.classList.remove('shake');
+    }
+
+    function redirectImageClick(destination){
+
+      if(destination == "Home"){
+        window.location.href = 'Main.html';
+      }
+      else {
+        location.reload();
+      }
+
+    }
+  </script>
+</body>
+</html>

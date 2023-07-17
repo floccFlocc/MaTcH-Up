@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="13.229167mm"
+   height="14.552078mm"
+   viewBox="0 0 13.229167 14.552078"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="ButtonRetry.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="116.31907"
+     inkscape:cy="-25.455844"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824"
+       originx="-40.481252"
+       originy="-89.164579" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40.481249,-89.164581)">
+    <rect
+       style="fill:#b2d5d1;fill-opacity:1;stroke-width:7.81419"
+       id="rect848"
+       width="13.229157"
+       height="14.552073"
+       x="40.481258"
+       y="89.164581" />
+    <path
+       id="rect4295"
+       style="fill:#829c99;fill-opacity:1;stroke-width:2.01762"
+       d="m 40.481249,89.164585 v 13.096875 1.4552 h 1.469909 11.759252 v -1.4552 H 41.951158 V 89.164585 Z" />
+    <path
+       id="rect7352"
+       style="fill:#8eaaa7;fill-opacity:1;stroke-width:1.66599"
+       d="m 43.127083,91.810417 v 1.322916 5.291663 1.322916 h 1.322916 3.968747 v -1.322916 h -3.968747 v -5.291663 h 3.968747 v 1.322916 h 1.322916 v -2.645832 z" />
+    <path
+       id="rect7649"
+       style="fill:#8eaaa7;fill-opacity:1;stroke-width:1.825"
+       d="m 45.772914,94.456249 v 1.322915 h 1.322916 v 1.322916 h 1.322916 v 1.322916 h 1.322916 V 97.10208 h 1.322915 v -1.322916 h 1.322916 v -1.322915 z" />
+    <path
+       id="rect11557"
+       style="fill:#c6ede9;fill-opacity:1;stroke-width:1.825"
+       d="m 49.741662,89.164586 v 1.322916 h 1.322915 v 1.322915 h 1.322916 v 1.322916 h 1.322916 v -2.645831 h -1.322916 v -1.322916 z" />
+  </g>
+</svg>

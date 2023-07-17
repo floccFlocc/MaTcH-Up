@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'press_start_2pregular';
+    src: url("../Custom\ Font/PressStart2p-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  font-family: 'press_start_2pregular';
+  color: beige;
+}
+
+body {
+  text-align: center;
+  margin-top: 20px;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3Csvg width='17.197918mm' height='17.197924mm' viewBox='0 0 17.197918 17.197924' version='1.1' id='svg5' inkscape:version='1.1.2 (b8e25be833, 2022-02-05)' sodipodi:docname='Background.svg' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Csodipodi:namedview id='namedview7' pagecolor='%23505050' bordercolor='%23eeeeee' borderopacity='1' inkscape:pageshadow='0' inkscape:pageopacity='0' inkscape:pagecheckerboard='0' inkscape:document-units='mm' showgrid='true' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0' inkscape:zoom='3.6988216' inkscape:cx='37.174002' inkscape:cy='4.0553457' inkscape:window-width='1366' inkscape:window-height='705' inkscape:window-x='-8' inkscape:window-y='-8' inkscape:window-maximized='1' inkscape:current-layer='layer1'%3E%3Cinkscape:grid type='xygrid' id='grid824' originx='-78.052083' originy='-109.80209' /%3E%3C/sodipodi:namedview%3E%3Cdefs id='defs2' /%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(-78.052086,-109.80208)'%3E%3Crect style='fill:%2308001f;fill-opacity:1;stroke-width:0.383638' id='rect1042' width='17.197918' height='17.197924' x='78.052086' y='109.80208' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.816168' id='rect848' width='1.3229166' height='6.6145959' x='82.020836' y='111.125' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.816168' id='rect930' width='1.3229166' height='6.6145959' x='113.77084' y='-85.989594' transform='rotate(90)' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect954' width='1.3229166' height='1.3229166' x='79.375' y='119.0625' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect956' width='1.3229166' height='1.3229166' x='80.697914' y='120.38541' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect958' width='1.3229166' height='1.3229166' x='82.020836' y='121.70833' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect960' width='1.3229166' height='1.3229166' x='83.34375' y='123.03125' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect962' width='1.3229166' height='1.3229166' x='84.666664' y='124.35416' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect964' width='1.3229166' height='1.3229166' x='83.34375' y='120.38541' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect966' width='1.3229166' height='1.3229166' x='84.666664' y='119.0625' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect968' width='1.3229166' height='1.3229166' x='80.697914' y='123.03125' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect973' width='1.3229166' height='1.3229166' x='79.375' y='124.35416' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect1008' width='1.3229166' height='1.3229166' x='87.3125' y='116.41666' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect1010' width='1.3229166' height='1.3229166' x='88.635414' y='115.09375' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect1012' width='1.3229166' height='1.3229166' x='89.958336' y='113.77083' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect1014' width='1.3229166' height='1.3229166' x='91.28125' y='112.44791' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect1016' width='1.3229166' height='1.3229166' x='92.604164' y='111.125' /%3E%3Crect style='fill:%23444d84;fill-opacity:1;stroke-width:0.365001' id='rect1018' width='6.614583' height='1.3229166' x='87.3125' y='121.70834' /%3E%3Cimage width='25.4' height='8.4666662' preserveAspectRatio='none' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAgAgMAAACQrpXHAAAACVBMVEUIAB9ETYSy1dE0/at3AAAA%0ACXBIWXMAAA7EAAAOxAGVKw4bAAAAF0lEQVQokWNggIJQKFgFBQyjEqMSoxIAOif/AQRJ8PAAAAAA%0ASUVORK5CYII=%0A' id='image848' x='75.14167' y='96.572906' /%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin: 10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 10px 10px rgba(0,0,0,6));
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg width='26.458332mm' height='39.6875mm' viewBox='0 0 26.458333 39.6875' version='1.1' id='svg886' inkscape:version='1.1.2 (b8e25be833, 2022-02-05)' sodipodi:docname='Card.svg' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Csodipodi:namedview id='namedview888' pagecolor='%23505050' bordercolor='%23eeeeee' borderopacity='1' inkscape:pageshadow='0' inkscape:pageopacity='0' inkscape:pagecheckerboard='0' inkscape:document-units='mm' showgrid='true' inkscape:zoom='1.4142136' inkscape:cx='-75.306873' inkscape:cy='91.216776' inkscape:window-width='1366' inkscape:window-height='705' inkscape:window-x='-8' inkscape:window-y='-8' inkscape:window-maximized='1' inkscape:current-layer='layer1' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0' inkscape:snap-bbox='true' inkscape:bbox-nodes='true' inkscape:snap-global='true' inkscape:snap-bbox-edge-midpoints='false' inkscape:snap-bbox-midpoints='false' inkscape:snap-intersection-paths='true'%3E%3Cinkscape:grid type='xygrid' id='grid947' originx='-58.208344' originy='-113.77083' /%3E%3C/sodipodi:namedview%3E%3Cdefs id='defs883' /%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(-58.208333,-113.77083)'%3E%3Cpath id='path19474' style='fill:%239a959b;fill-opacity:1;stroke-width:3.42867' d='M 8.3339844,0 V 3.9472656 H 4.1660156 V 7.8945312 H 0 V 16.851562 78.947266 H 4.1660156 V 98.683594 H 0 v 36.134766 7.28711 h 4.1660156 v 3.94726 H 8.3339844 V 150 H 54.166016 v -3.94727 H 62.5 V 150 h 29.166016 v -3.94727 h 4.167968 v -3.94726 H 100 V 67.105469 H 95.833984 V 55.263672 H 100 V 7.8945312 H 95.833984 V 3.9472656 H 91.666016 V 0 H 83.011719 75 V 3.9472656 H 66.666016 V 0 H 17.787109 Z M 72,21 h 5 v 1 h 2 v 1 h 2 v 1 h 1 v 5 h -1 v 1 h -2 v 1 h -2 v 1 h -5 v -1 h -2 v -1 h -2 v -1 h -1 v -5 h 1 v -1 h 2 v -1 h 2 z' transform='matrix(0.26458333,0,0,0.26458333,58.208333,113.77083)' /%3E%3Cpath id='path19477' style='fill:%23000000;fill-opacity:1;stroke-width:3.15067' d='M 75.382812,6.0390625 65.314453,6.1230469 H 20.400391 11.710938 V 9.7519531 H 7.8828125 v 3.6269529 h -3.828125 v 8.230469 53.113281 h 3.828125 v 27.630864 h -3.828125 v 27.65625 6.69726 h 3.828125 v 3.62695 h 3.8281255 v 3.62696 h 40.451171 10.990235 25.136718 v -3.62696 h 3.828126 v -3.62695 h 3.828124 V 67.789062 H 92.117188 V 53.748047 h 3.828124 V 13.378906 H 92.117188 V 9.7519531 H 88.289062 V 6.1230469 H 80.335938 Z M 72,21 h 5 v 1 h 2 v 1 h 2 v 1 h 1 v 5 h -1 v 1 h -2 v 1 h -2 v 1 h -5 v -1 h -2 v -1 h -2 v -1 h -1 v -5 h 1 v -1 h 2 v -1 h 2 z' transform='matrix(0.26458333,0,0,0.26458333,58.208333,113.77083)' /%3E%3Cpath id='path19290' style='fill:%23624836;fill-opacity:1;stroke-width:2.92631' d='M 77.332031,10.28125 64.078125,10.36133 H 22.791016 14.804688 v 3.404297 h -3.519532 v 3.404297 H 7.765625 v 7.724609 47.845703 h 3.519531 V 104.67188 H 7.765625 v 21.95507 6.28321 h 3.519531 v 3.40429 h 3.519532 v 3.4043 h 35.183593 16.101563 19.105468 v -3.4043 h 3.519532 v -3.40429 h 3.519531 V 70.232422 H 88.714844 V 51.056641 h 3.519531 V 17.169922 H 88.714844 V 13.765625 H 85.195312 V 10.361328 H 81.884766 Z M 72,21 h 5 v 1 h 2 v 1 h 2 v 1 h 1 v 5 h -1 v 1 h -2 v 1 h -2 v 1 h -5 v -1 h -2 v -1 h -2 v -1 h -1 v -5 h 1 v -1 h 2 v -1 h 2 z' transform='matrix(0.26458333,0,0,0.26458333,58.208333,113.77083)' /%3E%3Cpath id='path19207' style='fill:%23a77b5b;fill-opacity:1;stroke-width:2.70584' d='m 75.273438,15.15625 -12.25586,0.07422 H 24.841797 17.457031 v 3.148437 h -3.253906 v 3.148438 h -3.253906 v 7.142578 44.240234 h 3.253906 v 29.525393 h -3.253906 v 20.30078 5.81055 h 3.253906 v 3.14843 h 3.253906 v 3.14844 h 32.53125 14.890625 17.664063 v -3.14844 h 3.253906 v -3.14843 h 3.253906 V 70.591797 H 85.796875 V 50.859375 h 3.253906 V 21.527344 H 85.796875 V 18.378906 H 82.542969 V 15.230469 H 79.482422 Z M 72,21 h 5 v 1 h 2 v 1 h 2 v 1 h 1 v 5 h -1 v 1 h -2 v 1 h -2 v 1 h -5 v -1 h -2 v -1 h -2 v -1 h -1 v -5 h 1 v -1 h 2 v -1 h 2 z' transform='matrix(0.26458333,0,0,0.26458333,58.208333,113.77083)' /%3E%3Crect style='fill:%23624836;fill-opacity:1;stroke-width:1.6425' id='rect16773' width='21.43125' height='1.3229166' x='60.85416' y='123.16354' /%3E%3Crect style='fill:%23624836;fill-opacity:1;stroke-width:1.6425' id='rect18064' width='21.43125' height='1.3229166' x='60.98645' y='124.48645' /%3E%3Crect style='fill:%23000000;fill-opacity:1;stroke-width:1.74094' id='rect2113' width='24.077084' height='1.3229166' x='59.531242' y='123.82502' /%3E%3Crect style='fill:%23624836;fill-opacity:1;stroke-width:0.365001' id='rect18088' width='1.5875' height='1.3229166' x='60.589577' y='122.23751' /%3E%3Crect style='fill:%23624836;fill-opacity:1;stroke-width:0.365001' id='rect18090' width='1.3229166' height='1.3229166' x='80.697906' y='122.23751' /%3E%3Crect style='fill:%23624836;fill-opacity:1;stroke-width:0.365001' id='rect18092' width='1.3229166' height='1.3229166' x='60.85416' y='125.67709' /%3E%3Crect style='fill:%23624836;fill-opacity:1;stroke-width:0.365001' id='rect18094' width='1.3229166' height='1.3229166' x='80.962494' y='125.67709' /%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.card:hover {
+  transform: scale(1.2);
+  background-color: yellow;
+}
+
+.transformed {
+  transform: scale(1.2);
+  background-color: yellow;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+}
+
+/* Style the navigation links */
+nav div {
+  z-index: 1;
+  background: red;
+  position: fixed;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* Change link color on hover */
+nav a:hover {
+  background-color: #555;
+}
+
+button {
+  z-index: 1;
+  color: black;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.8s infinite;
+}
+
+/* Style for the pop-up container */
+#popupContainer {
+  display: none; /* Hide the pop-up by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+/* Style for the pop-up content */
+#popupContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Created with Inkscape (http://www.inkscape.org/) --%3E%3Csvg width='158.75mm' height='79.374992mm' viewBox='0 0 158.75 79.374993' version='1.1' id='svg5' sodipodi:docname='PopUp-Container.svg' inkscape:version='1.1.2 (b8e25be833, 2022-02-05)' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Csodipodi:namedview id='namedview7' pagecolor='%23505050' bordercolor='%23eeeeee' borderopacity='1' inkscape:pageshadow='0' inkscape:pageopacity='0' inkscape:pagecheckerboard='0' inkscape:document-units='mm' showgrid='true' inkscape:snap-nodes='true' inkscape:snap-bbox='true' inkscape:snap-bbox-edge-midpoints='true' inkscape:bbox-nodes='true' fit-margin-top='0' fit-margin-left='0' fit-margin-right='0' fit-margin-bottom='0' inkscape:zoom='0.43599398' inkscape:cx='306.19689' inkscape:cy='410.55613' inkscape:window-width='1366' inkscape:window-height='705' inkscape:window-x='-8' inkscape:window-y='-8' inkscape:window-maximized='1' inkscape:current-layer='layer1'%3E%3Cinkscape:grid type='xygrid' id='grid824' originx='-118.53333' originy='-83.343753' /%3E%3C/sodipodi:namedview%3E%3Cdefs id='defs2' /%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(-118.53333,-83.34375)'%3E%3Crect style='fill:%2308001f;fill-opacity:1;stroke-width:19.992' id='rect848' width='132.29164' height='79.374992' x='131.76251' y='83.34375' /%3E%3Crect style='fill:%2308001f;fill-opacity:1;stroke-width:22.5576' id='rect1092' width='145.52074' height='66.145912' x='125.14802' y='89.958244' /%3E%3Crect style='fill:%2308001f;fill-opacity:1;stroke-width:21.0733' id='rect1176' width='158.75' height='52.916645' x='118.53333' y='96.572929' /%3E%3Cpath id='rect6910' style='fill:%23444d84;fill-opacity:1;stroke-width:31.15' d='m 138.37701,89.958325 v 6.614599 h -6.6145 v 6.614576 h -6.61449 v 39.68749 h 6.61449 v 6.61458 h 6.6145 v 6.61459 H 257.4395 v -6.61459 h 6.61475 v -6.61458 h 6.6145 V 103.1875 h -6.6145 v -6.614576 h -6.61475 v -6.614599 z' sodipodi:nodetypes='ccccccccccccccccccccc' /%3E%3Crect style='fill:%23b2d5d1;fill-opacity:1;stroke-width:6.32199' id='rect10115' width='79.374992' height='2.6458187' x='158.22069' y='96.572929' /%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+#tag {
+  margin-top: 100px;
+  font-size: 14px;
+  padding: 30px;
+}
+
+/* Style for the close button inside the pop-up */
+#closeButton {
+  margin-top: 10px;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[id*="button-"] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+[id*="button-"]:hover{
+  transform: scale(1.2);
+}
